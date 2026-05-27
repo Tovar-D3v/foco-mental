@@ -1,0 +1,82 @@
+{
+  "name": "foco-mental",
+  "displayName": "Foco Mental",
+  "description": "Combate la fatiga cognitiva resaltando solo el bloque de código activo.",
+  "version": "0.0.2",
+  "publisher": "tovardev",
+  "icon": "resources/icon128x128.png",
+  "homepage": "https://tovardev.me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tovardev/foco-mental"
+  },
+  "bugs": {
+    "url": "https://github.com/tovardev/foco-mental/issues"
+  },
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Other",
+    "Formatters"
+  ],
+  "keywords": [
+    "focus",
+    "productivity",
+    "burnout",
+    "cognitive-load",
+    "deep-work",
+    "minimal",
+    "zen",
+    "opacity",
+    "code-focus"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Foco Mental",
+      "properties": {
+        "focoMental.opacidad": {
+          "type": "number",
+          "default": 0.25,
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Nivel de opacidad para el código fuera de foco (0.0 a 1.0)."
+        },
+        "focoMental.desenfoque": {
+          "type": "integer",
+          "default": 1,
+          "minimum": 0,
+          "maximum": 10,
+          "description": "Cantidad de pixeles para el desenfoque (blur)."
+        },
+        "focoMental.lenguajesExcluidos": {
+          "type": "array",
+          "default": [
+            "json",
+            "markdown",
+            "plaintext",
+            "properties"
+          ],
+          "description": "Lista de lenguajes donde Foco Mental se auto-desactivará."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.120.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.39.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
