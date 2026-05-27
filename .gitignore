@@ -1,0 +1,44 @@
+node_modules
+.vscode-test/
+*.vsix
+.env
+
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / package
+*.vsix
+
+# Temp
+tmp/
+temp/
+
+# Testing
+coverage/
+
+# Environment
+.env
+.env.local
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Optional
+.notebook/
