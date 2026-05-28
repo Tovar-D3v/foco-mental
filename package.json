@@ -2,7 +2,7 @@
   "name": "foco-mental",
   "displayName": "Foco Mental",
   "description": "Combate la fatiga cognitiva resaltando solo el bloque de código activo.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "tovardev",
   "icon": "resources/icon128x128.png",
   "homepage": "https://tovardev.me",
