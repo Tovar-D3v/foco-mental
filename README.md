@@ -6,6 +6,10 @@ Designed to improve focus, reduce cognitive overload, and support deep work sess
 
 ---
 
+![Foco Mental Demo](resources/banner.png)
+
+---
+
 ## Features
 
 - Focus on the active code block
@@ -13,6 +17,12 @@ Designed to improve focus, reduce cognitive overload, and support deep work sess
 - Adjustable opacity
 - Adjustable blur
 - Automatic language exclusions
+
+---
+
+## Demo
+
+![Foco Mental Demo](resources/focomentaltutorial.gif)
 
 ---
 
