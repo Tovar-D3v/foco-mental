@@ -6,7 +6,7 @@ Designed to improve focus, reduce cognitive overload, and support deep work sess
 
 ---
 
-![Foco Mental Demo](resources/banner.png)
+![Foco Mental Demo](https://raw.githubusercontent.com/Tovar-D3v/foco-mental/refs/heads/main/resources/banner.png)
 
 ---
 
@@ -22,7 +22,7 @@ Designed to improve focus, reduce cognitive overload, and support deep work sess
 
 ## Demo
 
-![Foco Mental Demo](resources/focomentaltutorial.gif)
+![Foco Mental Demo](https://github.com/Tovar-D3v/foco-mental/blob/main/resources/focomentaltutorial.gif?raw=true)
 
 ---
 
